@@ -23,7 +23,9 @@ ul に `crossFade` というクラスを設定します。
 
 jQuery 依存のスクリプトなので、まず jQuery を読み込んでおきます。
 
-`<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>`
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+その下に以下のスクリプトを読み込みます。
 
 	$(function(){
 		// 設定
@@ -57,7 +59,7 @@ jQuery 依存のスクリプトなので、まず jQuery を読み込んでお�
 
 ## しくみ
 
-<a href="http://klutche.org/archives/713/">クロスフェード処理で切り替わるシンプルな画像ギャラリー</a>に、マウスオーバーで中断、マウスが外れたら再開、の処理を追加しただけです。
+<a href="http://klutche.org/archives/713/" target="_blank">クロスフェード処理で切り替わるシンプルな画像ギャラリー</a>に、マウスオーバーで中断、マウスが外れたら再開、の処理を追加しただけです。
 
 `$(".crossFade").hover(function(){`
 
@@ -75,6 +77,3 @@ setInterval を解除しています。
 
 再び setInterval で処理をループしています。
 
-## サンプルファイル一式
-
-<a href="https://github.com/klutche/crossFade" target="_blank" class="link">https://github.com/klutche/crossFade</a>
