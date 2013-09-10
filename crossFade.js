@@ -1,4 +1,8 @@
-// JavaScript Document
+/************************************************************
+ * flickSlidr V1.0
+ * https://github.com/klutche/crossFade
+ * Released under the MIT license
+ ************************************************************/
 
 $(function(){
 	// 設定
